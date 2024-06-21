@@ -1,0 +1,424 @@
+
+/* tablet screen ke size */
+@media screen and (max-width:991px) {
+    .container{
+        overflow: hidden;
+    }
+    .inner-section-content{
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+    .top-leading-app-sec{
+        width: 100%;
+    }
+    .top-hand-content{
+        font-size: larger;
+        font-weight: 700;
+    }
+    .left-side-app {
+        /* width: 50%; */
+        text-align: center;
+    }
+    .right-side-app{
+        /* width: 50%; */
+        max-width: 675px;
+        /* font-size: 30px; */
+        /* text-align: center; */
+        /* padding-left: 160px; */
+        margin: auto;
+    }
+
+    .app-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .inner-content{
+        /* max-width: 514px; */
+        width: 100%;
+        /* font-size: 80px; */
+    }
+    .app-contact{
+        flex-direction: column;
+    }
+
+    .wholesaler-left-side-app-content{
+        /* width: 50%; */
+        /* text-align: center; */
+        /* margin-bottom: 20px; */
+    }
+    .wholesaler-right-side-app-content{
+        /* width: 50%; */
+        /* max-width: 675px; */
+    }
+ 
+
+    .left-side-app-content{
+        /* width: 100%; */
+        /* max-width: 326px; */
+        /* padding: 0px 50px; */
+        /* text-align: center; */
+    }
+    .right-side-app-content{
+        /* width: 100%; */
+        /* padding: 5px 50px; */
+        text-align: end;
+        /* max-width: 510px; */
+    }
+
+    .app-container-retailers{
+        /* flex-direction: column; */
+    }
+    .app-container-wholesaler{
+        /* flex-direction: column; */
+    }
+    .app-contact-us {
+        /* flex-direction: column; */
+    }
+    .field{
+        padding: 17px;
+        border: none;
+        max-width: 241px;
+        height: 46px;
+    }
+    .right-side-app-head p{
+        max-width: 706px;
+        width: 100%;
+        /* font-size: 20px; */
+    }
+    p.pera {
+        /* font-size: 20px; */
+    }
+    .top-hand-content p {
+        /* font-size: 20px; */
+    }
+    .left-side-app-content p {
+        /* font-size: 14px; */
+    }
+    .wholesaler-left-side-app-content img {
+        max-width: 300px;
+    }
+    
+    .right-side-app-content img {
+        max-width: 300px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .container{
+        overflow: hidden;
+    }
+    .inner-section-content{
+        flex-direction: column;
+    }
+    .top-leading-app-sec{
+        width: 100%;
+    }
+    .top-hand-content{
+        font-size: larger;
+        font-weight: 700;
+    }
+    .left-side-app {
+        width: 100%;
+        text-align: center;
+    }
+    .right-side-app{
+        width: 100%;
+        /* font-size: 30px; */
+        /* text-align: center; */
+        /* padding-left: 160px; */
+    }
+
+    .app-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .inner-content{
+        width: 100%;
+        font-size: 80px;
+    }
+    .app-contact{
+        flex-direction: column;
+    }
+
+    .wholesaler-left-side-app-content{
+        width: 100%;
+        text-align: center;
+        margin-top: 32px;
+    }
+    .wholesaler-right-side-app-content{
+        width: 100%;
+        max-width: 500px;
+    }
+ 
+
+    .left-side-app-content{
+        width: 100%;
+        max-width: 500px;
+        /* padding: 0px 50px; */
+    }
+    .right-side-app-content{
+        width: 100%;
+        /* padding: 5px 50px; */
+        text-align: center;
+        max-width: 510px;
+    }
+
+    .app-container-retailers{
+        flex-direction: column;
+    }
+    .app-container-wholesaler{
+        flex-direction: column-reverse;
+    }
+    .app-contact-us {
+        flex-direction: column;
+    }
+    .field{
+        padding: 17px;
+        border: none;
+        max-width: 241px;
+        height: 46px;
+    }
+    .app-sec-img img {
+        max-width: 300px;
+    }
+    .lft-sd-ap-ctn-pera {
+        width: 100%;
+    }
+    .banner-inner-50 {
+        width: 100%;
+    }
+    
+    .banner-inner h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    .image-banner {
+        /* top: 101px; */
+        /* text-align: start; */
+        position: absolute;
+        right: 16px;
+        bottom: -10px;
+        /* z-index: -1; */
+    }
+    
+    .image-banner img {
+        width: 150px;
+        height: 195px;
+    }
+    .banner-flex {
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    header {
+        z-index: 9;
+    }
+    section.banner-section {
+        padding-top: 57px;
+    }
+    .app-icon {
+        flex-direction: column;
+        max-width: 131px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media  (max-width: 426px) {
+    .container{
+        overflow: hidden;
+    }
+    .banner-flex{
+        flex-direction: column;
+    }
+    .banner-inner-50 {
+        /* max-width: 400px; */
+        width: 100%;
+        /* height: 237px; */
+        /* margin-left: 50px; */
+    }
+
+    .nav-list-toggle{
+        display: block;
+        margin-right: 20px;
+        padding: 12px;
+    }
+    
+    .nav-list{
+        position: absolute;
+        background-color: black;
+        right: 0; 
+        top:90%;    
+        width: 30%; 
+        
+        /* display: none; */
+    }
+    .nav-list ul{
+        flex-direction: column;
+    }
+    .image-banner{
+        /* padding-right: 60px; */
+        /* margin-top: 92px; */
+        /* padding-top: 19px; */
+        bottom: -11px;
+    }
+    .right-side-app{
+        width: 100%;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .left-side-app-content {
+        width: 100%;
+        max-width: 350px;
+    }
+    .right-side-app-content img {
+        max-width: 300px;
+    }
+
+    .wholesaler-left-side-app-content img{
+        max-width: 300px;
+    }
+    .wholesaler-right-side-app-content{
+        width: 100%;
+        max-width: 350px;
+    }
+    .input-inner-50 {
+        width: 100%;
+    }
+    
+    input.field {
+        max-width: 500px;
+    }
+    .footer-flex {
+        flex-direction: column;
+    }
+    
+    
+    
+    .footer-list ul {
+        /* flex-direction: column; */
+        /* padding-top: 20px; */
+    }
+    
+    .footer-list ul li {
+        padding-top: 20px;
+    }
+    #footer-sec {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footer-sec p{
+        padding: 10px 0px;
+    }
+    .banner-inner h2 {
+        line-height: 42px;
+        font-size: 40px;
+    }
+    .app-icon {
+        flex-direction: column;
+        max-width: 131px;
+    }
+    .banner-inner p{
+        line-height: 25px;
+    }
+    .banner-inner {
+        padding-bottom: 47px;
+    }
+    
+    section.banner-section {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .right-side-app-content img {
+        max-width: 300px;
+    }
+    
+    .wholesaler-left-side-app-content img {
+        max-width: 300px;
+    }
+    p.pera {
+        font-size: 16px;
+    }
+    .top-hand-content p {
+        font-size: 16px;
+    }
+    .left-side-app-content p {
+        font-size: 16px;
+    }
+
+    .top-hand-content h4 {
+        font-size: 22px;
+    }
+    
+    .top-hand-content p {
+        line-height: 20px;
+    }
+    
+    .right-side-app-head p {
+        line-height: 20px;
+    }
+    
+    .inner-content h4 {
+        font-size: 25px;
+    }
+    
+    .left-side-app-content p {
+        line-height: 21px;
+        padding-top: 14px;
+    }
+    
+    .left-side-app-content {
+        margin-bottom: 20px;
+    }
+    
+    .inner-content h4 {
+        font-size: 23px;
+    }
+    
+    .inner-content p {
+        line-height: 21px;
+        padding-top: 12px;
+    }
+    
+    .top-hand-content h4 {
+        font-size: 20px;
+    }
+    
+    .top-hand-content p {
+        padding: 0px 10px;
+    }
+}
+
+ @media (max-width:320px){
+    .app-icon {
+        max-width: 113px;
+    }
+    body{
+        width: 310px;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
